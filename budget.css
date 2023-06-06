@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: #f7f9fb; 
+}
+.first{
+    width: 100%;
+    font-size: 1em;
+    max-width: 44em;
+    margin: 1em auto;
+   
+    
+}
+
+.sub-box{
+    width: 25em;
+ 
+}
+.flex{
+    display: flex;
+    align-items: center; 
+}
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first h2{
+    color: rgba(0, 0, 0, 0.699);
+    font-weight: 1000;
+    margin-bottom: 0.4em;
+}
+.first h4{
+    color: rgba(0, 0, 0, 0.699);
+    font-weight: 1000;
+    margin-bottom: 0.5em;
+}
+.sub-box input{
+    display: block;
+    padding: 0.6em 0.4em;
+    width: 15em; height: 1em;
+    border: 1px solid black;
+    border-radius: 0.4em; 
+    
+}
+/* .box input:focus{
+    border-color: black;
+} */
+.total{
+    background-color: #fff;
+    box-shadow: 0 0.6em 1.2em gray;
+    border-radius: 0.4em;
+    padding: 0.7em 6em;   
+   position: relative; left: 8.4em;
+   /* margin-left: 11em; */
+}
+
+.get-output{
+    background-color: #587fff;
+    color: #fff;
+    border-radius: 0.4em;  padding: 1.2em;
+    width: 30em; margin-left: 4.8em;
+}
+.get-output p{
+    font-weight: 600;
+    margin-bottom: 0.7em;
+}
+.get-output span{
+    display: block;
+    text-align: center;
+}
+.set{
+    font-size: 1em;
+    margin-top: 1em;
+    background-color: #587fff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 0.4em;
+    padding: 0.6em 1.2em;
+}
+.list{
+    background-color: #fff;
+    padding: 1.8em 1.2em; border-radius: 0.8;
+    box-shadow: 0 0.6em 1.2em; border-radius: 0.7em;
+}
+.sublist-content{
+    width: 100%;
+    border-left: 0.4em solid skyblue;
+    margin-bottom: 0.5em;
+    padding: 0.4em 0;
+}
+.product{
+    font-weight: 400;
+    /* margin-left: 1.4em; */
+   
+}
+
+.amount{
+    margin-left: 19%;
+}
+
+.icons-container{
+    width: 4.5em;
+    margin: 1.1em;
+    align-items: center;
+}
+
+.product-title{
+    margin-bottom: 0.9em;
+}
+.hide{
+    display: none;
+}
+.error{
+    color: red;
+}
+
+.edit{
+    margin-left: auto;
+}
+
+.edit,
+.delete {
+    background: transparent;
+    cursor: pointer;
+    margin-right: 1.4em;
+    color: #587fff;
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    .first{
+        font-size: 13px;
+    }
+    .sub-box {
+        grid-template-columns: 1fr;
+    }
+}
